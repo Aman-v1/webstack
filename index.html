@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="styles/style.css" />
+    <link rel="stylesheet" href="styles/responsive.css" />
+    <title>WebStack</title>
+  </head>
+  <body>
+    <nav class="navbar background h-nav">
+      <ul class="nav-list v-class">
+        <div class="logo"><img src="img/logo.jpg" alt="logo" /></div>
+        <li><a href="#home">Home</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#service">Services</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+      <div class="burger">
+        <div class="line"></div>
+        <div class="line"></div>
+        <div class="line"></div>
+      </div>
+    </nav>
+
+    <section class="background firstSection" id="home">
+      <div class="box-main">
+        <div class="intro">
+          <p class="greeting">WELCOME TO WEBSTACK,</p>
+          <p class="moto">Design Create Develop</p>
+          <p class="first-line">Let us help you create your presence online though a beautifull website</p>
+          <div class="buttons">
+            <button class="btn btn-top">Get Started</button>
+            <button class="btn btn-top">Learn more</button>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="other-sections" id="about">
+      <div class="sectionTag">
+        <p class="text">About Us</p>
+        <p class="dash">____________</p>
+      </div>
+      <div class="paras">
+        <p class="sectionContent text-2">
+          <span>
+            We at WebStack provide our users different services related to web development and design. Lorem ipsum dolor
+            sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+            Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+            Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est
+            laborum.
+          </span>
+          <br />
+          <br />
+          <span>
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et
+            dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex
+            ea commodo consequat. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt
+            mollit anim id est laborum.
+          </span>
+        </p>
+        <div class="thumbnail">
+          <img src="img/about.jpg" alt="about us image" class="imgAbout" />
+        </div>
+      </div>
+    </section>
+
+    <section class="other-sections" id="service">
+      <div class="sectionTag">
+        <p class="text">What do we do?</p>
+        <p class="dash">____________</p>
+      </div>
+
+      <div class="services">
+        <p class="services-text">The services we provide to our coustomers</p>
+        <div class="btn-collection">
+          <div class="btn-div1">
+            <button class="btn info-btn">
+              <p>Web Templates</p>
+              <p>></p>
+            </button>
+            <button class="btn info-btn">
+              <p>UI/UX</p>
+              <p>></p>
+            </button>
+
+            <button class="btn info-btn">
+              <p>Full Stack</p>
+              <p>></p>
+            </button>
+            <button class="btn info-btn">
+              <p>APIs</p>
+              <p>></p>
+            </button>
+
+            <button class="btn info-btn">
+              <p>Database</p>
+              <p>></p>
+            </button>
+            <button class="btn info-btn">
+              <p>More...</p>
+              <p>></p>
+            </button>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="contact" id="contact">
+      <h1 class="text-modify">Contact Us</h1>
+      <form class="form" name="myForm" id="form" action="/#home">
+        <div class="input-control form-input">
+          <input class="form-input" type="text" name="fname" id="fname" placeholder="Enter Your Name" />
+        <div class="error"></div>
+        </div>
+        <div class="input-control form-input">
+          <input class="form-input" type="text" name="phone" id="phone" placeholder="Enter Your Phone" />
+          <div class="error"></div>
+        </div>
+        <div class="input-control form-input">
+          <input class="form-input" type="text" name="email" id="email" placeholder="Enter Your Email" />
+          <div class="error"></div>
+        </div>
+        <div class="input-control form-input">
+          <textarea
+            class="form-input"
+            name="text"
+            id="text"
+            cols="30"
+            rows="10"
+            placeholder="Elaborate Your Concern"
+          ></textarea>
+        
+
+        <button class="btn btn-dark" type="submit">Submit</button>
+      </form>
+    </section>
+
+    <footer>
+      <div class="text-footer">
+        <p>Designed and Developed by</p>
+        <p>Aman Verma</p>
+      </div>
+    </footer>
+
+    <script src="js/resp.js"></script>
+    <script src="js/index.js"></script>
+
+  </body>
+</html>
