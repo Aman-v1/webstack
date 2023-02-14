@@ -61,11 +61,12 @@ body {
 }
 
 .greeting {
+  padding: auto;
 }
 
 .moto {
   padding-top: 30px;
-  font-size: 150px;
+  font-size: 130px;
   color: #f97316;
 }
 
